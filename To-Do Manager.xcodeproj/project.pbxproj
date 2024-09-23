@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71A32B6E2C9D758600A23385 /* TaskEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A32B6D2C9D758600A23385 /* TaskEditController.swift */; };
+		71A32B702C9D7F8C00A23385 /* TaskTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A32B6F2C9D7F8C00A23385 /* TaskTypeController.swift */; };
+		71A32B742C9D81E700A23385 /* TaskTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A32B732C9D81E700A23385 /* TaskTypeCell.xib */; };
+		71A32B752C9D81E700A23385 /* TaskTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A32B722C9D81E700A23385 /* TaskTypeCell.swift */; };
 		71FB0EB82C8B0A0500964E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB0EB72C8B0A0500964E7A /* AppDelegate.swift */; };
 		71FB0EBA2C8B0A0500964E7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB0EB92C8B0A0500964E7A /* SceneDelegate.swift */; };
-		71FB0EBC2C8B0A0500964E7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB0EBB2C8B0A0500964E7A /* ViewController.swift */; };
 		71FB0EBF2C8B0A0500964E7A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 71FB0EBE2C8B0A0500964E7A /* Base */; };
 		71FB0EC12C8B0A0600964E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FB0EC02C8B0A0600964E7A /* Assets.xcassets */; };
 		71FB0EC42C8B0A0600964E7A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 71FB0EC32C8B0A0600964E7A /* Base */; };
+		71FB0ECE2C8B0AD200964E7A /* TaskListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB0ECD2C8B0AD200964E7A /* TaskListController.swift */; };
+		71FB0ED12C8B0C7F00964E7A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB0ED02C8B0C7F00964E7A /* Task.swift */; };
+		71FB0ED32C8B0ED500964E7A /* TasksStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB0ED22C8B0ED500964E7A /* TasksStorage.swift */; };
+		71FB0ED62C91FDFD00964E7A /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB0ED52C91FDFD00964E7A /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71A32B6D2C9D758600A23385 /* TaskEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditController.swift; sourceTree = "<group>"; };
+		71A32B6F2C9D7F8C00A23385 /* TaskTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeController.swift; sourceTree = "<group>"; };
+		71A32B722C9D81E700A23385 /* TaskTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeCell.swift; sourceTree = "<group>"; };
+		71A32B732C9D81E700A23385 /* TaskTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskTypeCell.xib; sourceTree = "<group>"; };
 		71FB0EB42C8B0A0500964E7A /* To-Do Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-Do Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FB0EB72C8B0A0500964E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71FB0EB92C8B0A0500964E7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71FB0EBB2C8B0A0500964E7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71FB0EBE2C8B0A0500964E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71FB0EC02C8B0A0600964E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71FB0EC32C8B0A0600964E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71FB0EC52C8B0A0600964E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FB0ECD2C8B0AD200964E7A /* TaskListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListController.swift; sourceTree = "<group>"; };
+		71FB0ED02C8B0C7F00964E7A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		71FB0ED22C8B0ED500964E7A /* TasksStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksStorage.swift; sourceTree = "<group>"; };
+		71FB0ED52C91FDFD00964E7A /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71A32B712C9D81B200A23385 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				71FB0ED52C91FDFD00964E7A /* TaskCell.swift */,
+				71A32B722C9D81E700A23385 /* TaskTypeCell.swift */,
+				71A32B732C9D81E700A23385 /* TaskTypeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		71FB0EAB2C8B0A0500964E7A = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +80,36 @@
 		71FB0EB62C8B0A0500964E7A /* To-Do Manager */ = {
 			isa = PBXGroup;
 			children = (
+				71FB0ED42C91FDB000964E7A /* View */,
+				71FB0ECF2C8B0C4500964E7A /* Model */,
 				71FB0EB72C8B0A0500964E7A /* AppDelegate.swift */,
 				71FB0EB92C8B0A0500964E7A /* SceneDelegate.swift */,
-				71FB0EBB2C8B0A0500964E7A /* ViewController.swift */,
 				71FB0EBD2C8B0A0500964E7A /* Main.storyboard */,
 				71FB0EC02C8B0A0600964E7A /* Assets.xcassets */,
 				71FB0EC22C8B0A0600964E7A /* LaunchScreen.storyboard */,
 				71FB0EC52C8B0A0600964E7A /* Info.plist */,
+				71FB0ECD2C8B0AD200964E7A /* TaskListController.swift */,
+				71A32B6D2C9D758600A23385 /* TaskEditController.swift */,
+				71A32B6F2C9D7F8C00A23385 /* TaskTypeController.swift */,
 			);
 			path = "To-Do Manager";
+			sourceTree = "<group>";
+		};
+		71FB0ECF2C8B0C4500964E7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71FB0ED02C8B0C7F00964E7A /* Task.swift */,
+				71FB0ED22C8B0ED500964E7A /* TasksStorage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71FB0ED42C91FDB000964E7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71A32B712C9D81B200A23385 /* Cell */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +172,7 @@
 			files = (
 				71FB0EC12C8B0A0600964E7A /* Assets.xcassets in Resources */,
 				71FB0EC42C8B0A0600964E7A /* Base in Resources */,
+				71A32B742C9D81E700A23385 /* TaskTypeCell.xib in Resources */,
 				71FB0EBF2C8B0A0500964E7A /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71FB0EBC2C8B0A0500964E7A /* ViewController.swift in Sources */,
+				71FB0ED12C8B0C7F00964E7A /* Task.swift in Sources */,
 				71FB0EB82C8B0A0500964E7A /* AppDelegate.swift in Sources */,
+				71FB0ED32C8B0ED500964E7A /* TasksStorage.swift in Sources */,
 				71FB0EBA2C8B0A0500964E7A /* SceneDelegate.swift in Sources */,
+				71A32B702C9D7F8C00A23385 /* TaskTypeController.swift in Sources */,
+				71FB0ED62C91FDFD00964E7A /* TaskCell.swift in Sources */,
+				71FB0ECE2C8B0AD200964E7A /* TaskListController.swift in Sources */,
+				71A32B6E2C9D758600A23385 /* TaskEditController.swift in Sources */,
+				71A32B752C9D81E700A23385 /* TaskTypeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +356,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Danila.Inc.To-Do-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -332,7 +384,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Danila.Inc.To-Do-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
